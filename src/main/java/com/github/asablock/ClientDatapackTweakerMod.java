@@ -1,10 +1,10 @@
 package com.github.asablock;
 
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 
-public class ClientDatapackTweakerMod implements ModInitializer {
+public class ClientDatapackTweakerMod implements ClientModInitializer {
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 
 	}
 }
