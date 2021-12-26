@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dptweaker",
+  "version": "${version}",
+
+  "name": "Datapack Tweaker",
+  "description": "这个模组允许你使用图形化配方编辑器并用于数据包",
+  "authors": [
+    "asablock"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/asablock/Datapack-Tweaker"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dptweaker/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.asablock.ClientDatapackTweakerMod"
+    ]
+  },
+  "mixins": [
+    "dptweaker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
